@@ -1,11 +1,15 @@
 #!name=Custom Direct Rules
-#!desc=将 Infuse 和 UHDNow 设为直连模式
+#!desc=Infuse, UHDNow, SOOP Live 直连模块
 #!category=Rules
 
 [Rule]
-# Infuse 进程/域名直连
+# Infuse
 PROCESS-NAME,Infuse,DIRECT
 DOMAIN-SUFFIX,firecore.com,DIRECT
 
-# UHDNow 域名直连
+# UHDNow
 DOMAIN-SUFFIX,uhdnow.com,DIRECT
+
+# SOOP Live
+DOMAIN-SUFFIX,sooplive.co.kr,DIRECT
+DOMAIN-SUFFIX,sooplive.com,DIRECT
